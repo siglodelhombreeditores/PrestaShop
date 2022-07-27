@@ -34,66 +34,27 @@
       <trans-unit id="51a8b3a61ad63d4e5df2ce86870e39b8">
         <source>Transplant a module</source>
         <target>Transplant a module</target>
-        <note>Line: 39</note>
+        <note>Line: 35</note>
       </trans-unit>
       <trans-unit id="97e34811d05eb0ee902aa3e190ea5efd">
         <source>Transplant to</source>
         <target>Transplant to</target>
-        <note>Line: 55</note>
+        <note>Line: 51</note>
       </trans-unit>
       <trans-unit id="d5f1381c5f97f928df4ef8d18c2a27c0">
         <source>Exceptions</source>
         <target>Exceptions</target>
-        <note>Line: 81</note>
+        <note>Line: 77</note>
       </trans-unit>
       <trans-unit id="c5cc1164fe38560fcd4fb85ca074a789">
         <source>Available hooks</source>
         <target>Available hooks</target>
-        <note>Line: 62</note>
+        <note>Line: 58</note>
       </trans-unit>
       <trans-unit id="407e15fbe496ef15d5cce04b0cbbebaf">
         <source>Already registered hooks</source>
         <target>Already registered hooks</target>
-        <note>Line: 70</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="admin-dev/themes/default/template/controllers/modules_positions/list_modules.tpl" source-language="en-US" target-language="en" datatype="plaintext">
-    <body>
-      <trans-unit id="4ba24d91566786f5315acf453418dbb6">
-        <source>All modules</source>
-        <target>All modules</target>
-        <note>Line: 51</note>
-      </trans-unit>
-      <trans-unit id="c2f2fa871a47fd6ab9e8442ff4dd468d">
-        <source>Search for a hook</source>
-        <target>Search for a hook</target>
-        <note>Line: 59</note>
-      </trans-unit>
-      <trans-unit id="4c64748755160a1e441ed3dc34d6b827">
-        <source>Display non-positionable hooks</source>
-        <target>Display non-positionable hooks</target>
-        <note>Line: 73</note>
-      </trans-unit>
-      <trans-unit id="d97628f4b34d5ca2a77cc1bfa7914aa9">
-        <source>Unhook</source>
-        <target>Unhook</target>
-        <note>Line: 149</note>
-      </trans-unit>
-      <trans-unit id="feb6f2e19409f021e5fd65c51d21d254">
-        <source>Unhook the selection</source>
-        <target>Unhook the selection</target>
-        <note>Line: 185</note>
-      </trans-unit>
-      <trans-unit id="fdf4e26a28a557ccfae6ddea1881687e">
-        <source>1 module selected</source>
-        <target>1 module selected</target>
-        <note>Line: 179</note>
-      </trans-unit>
-      <trans-unit id="2451f8c34b91d6d3b6e7ee63c23d13fc">
-        <source>modules selected</source>
-        <target>modules selected</target>
-        <note>Line: 181</note>
+        <note>Line: 66</note>
       </trans-unit>
     </body>
   </file>
@@ -199,87 +160,102 @@
       <trans-unit id="92deb9e729da3800aca668de3491f0c8">
         <source>Use JPEG.</source>
         <target>Use JPEG.</target>
-        <note>Line: 96</note>
+        <note>Line: 97</note>
       </trans-unit>
       <trans-unit id="6178649941eae11401f8bd95d32ad690">
         <source>Use PNG only if the base image is in PNG format.</source>
         <target>Use PNG only if the base image is in PNG format.</target>
-        <note>Line: 96</note>
+        <note>Line: 98</note>
       </trans-unit>
       <trans-unit id="d40849d8da6fe69b751ebaa13595b34d">
         <source>Use PNG for all images.</source>
         <target>Use PNG for all images.</target>
-        <note>Line: 96</note>
+        <note>Line: 99</note>
       </trans-unit>
       <trans-unit id="5a259e0a584d2d8f7de738689c91cb20">
         <source>JPEG compression</source>
         <target>JPEG compression</target>
-        <note>Line: 99</note>
+        <note>Line: 105</note>
       </trans-unit>
       <trans-unit id="9c4936420e1471c2233cfbb40ce49319">
         <source>PNG compression</source>
         <target>PNG compression</target>
-        <note>Line: 107</note>
+        <note>Line: 113</note>
       </trans-unit>
       <trans-unit id="2f0f4bfac8d0b89ceaf30a94f39f0d58">
         <source>Generate images based on one side of the source image</source>
         <target>Generate images based on one side of the source image</target>
-        <note>Line: 115</note>
+        <note>Line: 135</note>
       </trans-unit>
       <trans-unit id="fbd5c930381c5176afe9310becf39ee5">
         <source>Automatic (longest side)</source>
         <target>Automatic (longest side)</target>
-        <note>Line: 123</note>
+        <note>Line: 143</note>
       </trans-unit>
       <trans-unit id="9cddfad226d0bc7a731c13fbec74aca6">
         <source>Maximum file size of product customization pictures</source>
         <target>Maximum file size of product customization pictures</target>
-        <note>Line: 138</note>
+        <note>Line: 158</note>
       </trans-unit>
       <trans-unit id="4b3a6218bb3e3a7303e8a171a60fcf92">
         <source>bytes</source>
         <target>bytes</target>
-        <note>Line: 144</note>
+        <note>Line: 164</note>
       </trans-unit>
       <trans-unit id="ff534cd9270ca999a39a50a6365ff52e">
         <source>Product picture width</source>
         <target>Product picture width</target>
-        <note>Line: 148</note>
+        <note>Line: 168</note>
       </trans-unit>
       <trans-unit id="d399848208da8b80a306af0fd62bb03f">
         <source>pixels</source>
         <target>pixels</target>
-        <note>Line: 223</note>
+        <note>Line: 243</note>
       </trans-unit>
       <trans-unit id="5891a406596216c63f7a1f8f7c6a81a8">
         <source>Product picture height</source>
         <target>Product picture height</target>
-        <note>Line: 159</note>
+        <note>Line: 179</note>
       </trans-unit>
       <trans-unit id="ace52125644d273380446071bcd6d5fb">
         <source>Generate high resolution images</source>
         <target>Generate high resolution images</target>
-        <note>Line: 171</note>
+        <note>Line: 191</note>
       </trans-unit>
       <trans-unit id="b08ea6a4f29e76c9d843856917642409">
         <source>Use the legacy image filesystem</source>
         <target>Use the legacy image filesystem</target>
-        <note>Line: 185</note>
+        <note>Line: 205</note>
       </trans-unit>
       <trans-unit id="2dd1148046499f9c2422ce1045a4accf">
         <source>Image type</source>
         <target>Image type</target>
-        <note>Line: 197</note>
+        <note>Line: 217</note>
       </trans-unit>
       <trans-unit id="404dede45594c16ad5592b1091cc7ba8">
         <source>Name for the image type</source>
         <target>Name for the image type</target>
-        <note>Line: 203</note>
+        <note>Line: 223</note>
       </trans-unit>
       <trans-unit id="d1e9d1892046943ae96e613646fc0381">
         <source>Add new image type</source>
         <target>Add new image type</target>
-        <note>Line: 703</note>
+        <note>Line: 729</note>
+      </trans-unit>
+      <trans-unit id="11c6a44dc07bc78786c8e597caaae38d">
+        <source>Use WebP only if the base image is in WebP format.</source>
+        <target>Use WebP only if the base image is in WebP format.</target>
+        <note>Line: 100</note>
+      </trans-unit>
+      <trans-unit id="8da7333b05a750dc4a46cb829e9a5761">
+        <source>Use WebP for all images.</source>
+        <target>Use WebP for all images.</target>
+        <note>Line: 101</note>
+      </trans-unit>
+      <trans-unit id="5c1a961f24af9dff17e943c94243fc28">
+        <source>WebP compression</source>
+        <target>WebP compression</target>
+        <note>Line: 121</note>
       </trans-unit>
     </body>
   </file>
@@ -288,22 +264,22 @@
       <trans-unit id="700e2c3b7b442c597c781eac801408b6">
         <source>___________ CUSTOM ___________</source>
         <target>___________ CUSTOM ___________</target>
-        <note>Line: 446</note>
+        <note>Line: 372</note>
       </trans-unit>
       <trans-unit id="6957667301f05bce7e2c0b5cd8567df5">
         <source>____________ CORE ____________</source>
         <target>____________ CORE ____________</target>
-        <note>Line: 458</note>
+        <note>Line: 384</note>
       </trans-unit>
       <trans-unit id="1cc06efffbc5252916c871f45098a50f">
         <source>Admin modules controller</source>
         <target>Admin modules controller</target>
-        <note>Line: 464</note>
+        <note>Line: 390</note>
       </trans-unit>
       <trans-unit id="2f75fd5bb638eb1353d6941aac58700e">
         <source>Front modules controller</source>
         <target>Front modules controller</target>
-        <note>Line: 464</note>
+        <note>Line: 390</note>
       </trans-unit>
     </body>
   </file>
@@ -312,7 +288,7 @@
       <trans-unit id="453aceb005ceaf54a47da15fee8b2a26">
         <source>Pages</source>
         <target>Pages</target>
-        <note>Line: 532</note>
+        <note>Line: 541</note>
       </trans-unit>
     </body>
   </file>
@@ -355,7 +331,7 @@
       <trans-unit id="1f6162e1430a8d5020bf4c20dc02499f">
         <source>Pages in category "%name%"</source>
         <target>Pages in category "%name%"</target>
-        <note>Line: 121</note>
+        <note>Line: 115</note>
       </trans-unit>
     </body>
   </file>
@@ -364,12 +340,12 @@
       <trans-unit id="cca370c1880917b42e0ca0f484afb715">
         <source>Preview Theme %s</source>
         <target>Preview Theme %s</target>
-        <note>Line: 249</note>
+        <note>Line: 248</note>
       </trans-unit>
       <trans-unit id="7accead9f41b1968f1957961177b1ed7">
         <source>Test email %template%</source>
         <target>Test email %template%</target>
-        <note>Line: 319</note>
+        <note>Line: 318</note>
       </trans-unit>
     </body>
   </file>
@@ -387,22 +363,22 @@
       <trans-unit id="21f93401134586a6c481422bf01fccfd">
         <source>Only letters and the hyphen (-) character are allowed.</source>
         <target>Only letters and the hyphen (-) character are allowed.</target>
-        <note>Line: 221</note>
+        <note>Line: 234</note>
       </trans-unit>
       <trans-unit id="45b1bce0ceb1e155fc99d59a21761b9e">
         <source>Page content</source>
         <target>Page content</target>
-        <note>Line: 254</note>
+        <note>Line: 267</note>
       </trans-unit>
       <trans-unit id="ce1e51212c9df52777620dc9de246da0">
         <source>Indexation by search engines</source>
         <target>Indexation by search engines</target>
-        <note>Line: 269</note>
+        <note>Line: 282</note>
       </trans-unit>
       <trans-unit id="79e48ca19eefe7806fbaf27df903e8d5">
         <source>Page category</source>
         <target>Page category</target>
-        <note>Line: 94</note>
+        <note>Line: 97</note>
       </trans-unit>
     </body>
   </file>
@@ -439,7 +415,7 @@
       <trans-unit id="d52c442675e27baf9d7c5a19d6ef93fa">
         <source>Select your default email theme</source>
         <target>Select your default email theme</target>
-        <note>Line: 41</note>
+        <note>Line: 39</note>
       </trans-unit>
     </body>
   </file>
@@ -477,12 +453,12 @@
       <trans-unit id="bfa4f8af8165a84b7d7b2e01d8dfc870">
         <source>Raw HTML</source>
         <target>Raw HTML</target>
-        <note>Line: 90</note>
+        <note>Line: 88</note>
       </trans-unit>
       <trans-unit id="9dffbf69ffba8bc38bc4e01abf4b1675">
         <source>Text</source>
         <target>Text</target>
-        <note>Line: 94</note>
+        <note>Line: 92</note>
       </trans-unit>
     </body>
   </file>
@@ -491,7 +467,7 @@
       <trans-unit id="d28bbf5382a9e7e12a596e5e7f2d04ca">
         <source>Email themes</source>
         <target>Email themes</target>
-        <note>Line: 31</note>
+        <note>Line: 30</note>
       </trans-unit>
     </body>
   </file>
@@ -599,17 +575,17 @@
       <trans-unit id="7961c4434751797a383d52d647e044d6">
         <source>Import from your computer</source>
         <target>Import from your computer</target>
-        <note>Line: 53</note>
+        <note>Line: 52</note>
       </trans-unit>
       <trans-unit id="dec0faa6eb19bd9120d12c5a876bd1cf">
         <source>Import from the web</source>
         <target>Import from the web</target>
-        <note>Line: 75</note>
+        <note>Line: 74</note>
       </trans-unit>
       <trans-unit id="cd8d9cc19984ccf9d314eee5eebfc2cc">
         <source>Import from FTP</source>
         <target>Import from FTP</target>
-        <note>Line: 97</note>
+        <note>Line: 96</note>
       </trans-unit>
     </body>
   </file>
@@ -638,12 +614,12 @@
       <trans-unit id="6b8e9498b52135e7f6cee757294a6079">
         <source>My current theme</source>
         <target>My current theme</target>
-        <note>Line: 99</note>
+        <note>Line: 98</note>
       </trans-unit>
       <trans-unit id="b6ba229b668e5a7b6700e4d275683084">
         <source>Use this theme</source>
         <target>Use this theme</target>
-        <note>Line: 123</note>
+        <note>Line: 122</note>
       </trans-unit>
       <trans-unit id="6fe78057f585de51da0f61d514143fe1">
         <source>Explore more than a thousand themes</source>
@@ -653,7 +629,46 @@
       <trans-unit id="10d79e2800631feee6411615a72eb79e">
         <source>My theme for %name% shop</source>
         <target>My theme for %name% shop</target>
-        <note>Line: 82</note>
+        <note>Line: 81</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/positions.html.twig" source-language="en-US" target-language="en" datatype="plaintext">
+    <body>
+      <trans-unit id="4ba24d91566786f5315acf453418dbb6">
+        <source>All modules</source>
+        <target>All modules</target>
+        <note>Line: 62</note>
+      </trans-unit>
+      <trans-unit id="c2f2fa871a47fd6ab9e8442ff4dd468d">
+        <source>Search for a hook</source>
+        <target>Search for a hook</target>
+        <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="4c64748755160a1e441ed3dc34d6b827">
+        <source>Display non-positionable hooks</source>
+        <target>Display non-positionable hooks</target>
+        <note>Line: 92</note>
+      </trans-unit>
+      <trans-unit id="d97628f4b34d5ca2a77cc1bfa7914aa9">
+        <source>Unhook</source>
+        <target>Unhook</target>
+        <note>Line: 208</note>
+      </trans-unit>
+      <trans-unit id="feb6f2e19409f021e5fd65c51d21d254">
+        <source>Unhook the selection</source>
+        <target>Unhook the selection</target>
+        <note>Line: 228</note>
+      </trans-unit>
+      <trans-unit id="fdf4e26a28a557ccfae6ddea1881687e">
+        <source>1 module selected</source>
+        <target>1 module selected</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="2451f8c34b91d6d3b6e7ee63c23d13fc">
+        <source>modules selected</source>
+        <target>modules selected</target>
+        <note>Line: 41</note>
       </trans-unit>
     </body>
   </file>

@@ -21,6 +21,21 @@
         <target>Your password must be at least %min% characters long.</target>
         <note>Line: 86</note>
       </trans-unit>
+      <trans-unit id="4e46ead161638465b5f8cc4351e559a3">
+        <source>Enter a password to transform your guest account into a customer account.</source>
+        <target>Enter a password to transform your guest account into a customer account.</target>
+        <note>Line: 91</note>
+      </trans-unit>
+      <trans-unit id="fc958b60fae3edad351928fd9968f129">
+        <source>Your password length must be between %d and %d</source>
+        <target>Your password length must be between %d and %d</target>
+        <note>Line: 97</note>
+      </trans-unit>
+      <trans-unit id="df68276ca83c0f6db0ec597d9f4e30c6">
+        <source>Customer password is too weak</source>
+        <target>Customer password is too weak</target>
+        <note>Line: 103</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/modules/contactform/views/templates/widget/contactform.tpl" source-language="en-US" target-language="en" datatype="plaintext">
@@ -58,6 +73,11 @@
         <source>Password input of at least 5 characters</source>
         <target>Password input of at least 5 characters</target>
         <note>Line: 143</note>
+      </trans-unit>
+      <trans-unit id="37194b51ca7ae0447c7a575d7a143c22">
+        <source>Password input</source>
+        <target>Password input</target>
+        <note>Line: 142</note>
       </trans-unit>
     </body>
   </file>

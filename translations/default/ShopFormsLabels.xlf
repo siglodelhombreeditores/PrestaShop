@@ -182,12 +182,21 @@ File: themes/StarterTheme/templates/customer/_partials/order-messages.tpl:64</no
       <trans-unit id="ebb061953c0454b2c8ee7b0ac615ebcd">
         <source>Optional</source>
         <target>Optional</target>
-        <note>Line: 196</note>
+        <note>Line: 198</note>
       </trans-unit>
       <trans-unit id="4293bbcd95a38b4da545b4a245610dbb">
         <source>Please choose</source>
         <target>Please choose</target>
         <note>Line: 61</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="themes/classic/templates/customer/_partials/account-transformation-form.tpl" source-language="en-US" target-language="en" datatype="plaintext">
+    <body>
+      <trans-unit id="3b6bf3c0c07b89dc86f415117a1f0b80">
+        <source>Set your password:</source>
+        <target>Set your password:</target>
+        <note>Line: 35</note>
       </trans-unit>
     </body>
   </file>
@@ -216,15 +225,6 @@ File: themes/StarterTheme/templates/customer/_partials/order-messages.tpl:64</no
         <source>Email:</source>
         <target>Email:</target>
         <note>Line: 61</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="themes/classic/templates/customer/guest-tracking.tpl" source-language="en-US" target-language="en" datatype="plaintext">
-    <body>
-      <trans-unit id="3b6bf3c0c07b89dc86f415117a1f0b80">
-        <source>Set your password:</source>
-        <target>Set your password:</target>
-        <note>Line: 54</note>
       </trans-unit>
     </body>
   </file>

@@ -10,7 +10,7 @@
       <trans-unit id="af342023e90ca45b0d69be497168ac56">
         <source>Unit discount</source>
         <target>Unit discount</target>
-        <note>Line: 1563</note>
+        <note>Line: 1526</note>
       </trans-unit>
     </body>
   </file>
@@ -19,12 +19,12 @@
       <trans-unit id="9dea4016dbcc290b773ab2fae678aaa8">
         <source>Items</source>
         <target>Items</target>
-        <note>Line: 1127</note>
+        <note>Line: 1134</note>
       </trans-unit>
       <trans-unit id="7d74f3b92b19da5e606d737d339a9679">
         <source>Item</source>
         <target>Item</target>
-        <note>Line: 1127</note>
+        <note>Line: 1134</note>
       </trans-unit>
     </body>
   </file>
@@ -33,17 +33,17 @@
       <trans-unit id="af1b98adf7f686b84cd0b443e022b7a0">
         <source>Categories</source>
         <target>Categories</target>
-        <note>Line: 40</note>
+        <note>Line: 41</note>
       </trans-unit>
       <trans-unit id="453aceb005ceaf54a47da15fee8b2a26">
         <source>Pages</source>
         <target>Pages</target>
-        <note>Line: 42</note>
+        <note>Line: 43</note>
       </trans-unit>
       <trans-unit id="c8f312df214e2295809027c6ca79d232">
         <source>Price drop</source>
         <target>Price drop</target>
-        <note>Line: 162</note>
+        <note>Line: 166</note>
       </trans-unit>
     </body>
   </file>
@@ -52,7 +52,7 @@
       <trans-unit id="01f7ac959c1e6ebbb2e0ee706a7a5255">
         <source>Best sellers</source>
         <target>Best sellers</target>
-        <note>Line: 87</note>
+        <note>Line: 93</note>
       </trans-unit>
     </body>
   </file>
@@ -61,7 +61,7 @@
       <trans-unit id="aa89fd8bf65df5c1a1c11474bf2c16b5">
         <source>Category: %category_name%</source>
         <target>Category: %category_name%</target>
-        <note>Line: 293</note>
+        <note>Line: 284</note>
       </trans-unit>
     </body>
   </file>
@@ -70,7 +70,7 @@
       <trans-unit id="bd51980476ab3cd93603c9548fb78775">
         <source>List of all brands</source>
         <target>List of all brands</target>
-        <note>Line: 93</note>
+        <note>Line: 103</note>
       </trans-unit>
     </body>
   </file>
@@ -79,7 +79,7 @@
       <trans-unit id="6de5d0b17afc50642850ff9486934f87">
         <source>Prices drop</source>
         <target>Prices drop</target>
-        <note>Line: 75</note>
+        <note>Line: 81</note>
       </trans-unit>
     </body>
   </file>
@@ -88,7 +88,7 @@
       <trans-unit id="eb6b06cab0dd72e04c4da68d511facf2">
         <source>Search results</source>
         <target>Search results</target>
-        <note>Line: 113</note>
+        <note>Line: 120</note>
       </trans-unit>
     </body>
   </file>
@@ -97,22 +97,22 @@
       <trans-unit id="108b413416adf90e7c6f21a68bb02dd2">
         <source>%number% products</source>
         <target>%number% products</target>
-        <note>Line: 191</note>
+        <note>Line: 204</note>
       </trans-unit>
       <trans-unit id="8e7fb1213c4692b195ed6b7cf580d7f3">
         <source>%number% product</source>
         <target>%number% product</target>
-        <note>Line: 192</note>
+        <note>Line: 205</note>
       </trans-unit>
       <trans-unit id="d9e0619813f9247f8a506b9b1e61599f">
         <source>List of all suppliers</source>
         <target>List of all suppliers</target>
-        <note>Line: 94</note>
+        <note>Line: 106</note>
       </trans-unit>
       <trans-unit id="bcdf044a723993079e77ec66e4d6cbf2">
         <source>List of products by supplier %supplier_name%</source>
         <target>List of products by supplier %supplier_name%</target>
-        <note>Line: 81</note>
+        <note>Line: 93</note>
       </trans-unit>
     </body>
   </file>
@@ -144,27 +144,27 @@
       <trans-unit id="05d61847840bcddb5d37374de3be0ccc">
         <source>Name, A to Z</source>
         <target>Name, A to Z</target>
-        <note>Line: 99</note>
+        <note>Line: 92</note>
       </trans-unit>
       <trans-unit id="e21f2ef58ff858167655c18a874f9706">
         <source>Name, Z to A</source>
         <target>Name, Z to A</target>
-        <note>Line: 102</note>
+        <note>Line: 95</note>
       </trans-unit>
       <trans-unit id="e2174d7435696694b8f4d984d99eef03">
         <source>Price, low to high</source>
         <target>Price, low to high</target>
-        <note>Line: 105</note>
+        <note>Line: 98</note>
       </trans-unit>
       <trans-unit id="0ee81913615b71aba7dc8bbf1f144672">
         <source>Price, high to low</source>
         <target>Price, high to low</target>
-        <note>Line: 108</note>
+        <note>Line: 101</note>
       </trans-unit>
       <trans-unit id="b56ffaa1656269759857ba14573dc144">
         <source>Sales, highest to lowest</source>
         <target>Sales, highest to lowest</target>
-        <note>Line: 69</note>
+        <note>Line: 62</note>
       </trans-unit>
     </body>
   </file>
@@ -173,12 +173,12 @@
       <trans-unit id="900a70008b0ed52ee5f6907f7b61f0e8">
         <source>Date added, newest to oldest</source>
         <target>Date added, newest to oldest</target>
-        <note>Line: 104</note>
+        <note>Line: 100</note>
       </trans-unit>
       <trans-unit id="c2718c816e7ebf8495e3c9ce20061317">
         <source>Date added, oldest to newest</source>
         <target>Date added, oldest to newest</target>
-        <note>Line: 107</note>
+        <note>Line: 103</note>
       </trans-unit>
     </body>
   </file>
@@ -192,67 +192,67 @@
       <trans-unit id="03de921a8ea82897e13d33d66c28b4db">
         <source>Online only</source>
         <target>Online only</target>
-        <note>Line: 451</note>
+        <note>Line: 456</note>
       </trans-unit>
       <trans-unit id="800e90e940e7f1fb938b0fda5137f38c">
         <source>On sale!</source>
         <target>On sale!</target>
-        <note>Line: 458</note>
+        <note>Line: 463</note>
       </trans-unit>
       <trans-unit id="63b539babcf7978229d66ba4052ca71f">
         <source>Reduced price</source>
         <target>Reduced price</target>
-        <note>Line: 476</note>
+        <note>Line: 481</note>
       </trans-unit>
       <trans-unit id="4492081ca02b059f9e8af4ddaf0f7292">
         <source>Pack</source>
         <target>Pack</target>
-        <note>Line: 491</note>
+        <note>Line: 496</note>
       </trans-unit>
       <trans-unit id="cb3c718c905f00adbb6735f55bfb38ef">
         <source>Product available with different options</source>
         <target>Product available with different options</target>
-        <note>Line: 924</note>
+        <note>Line: 948</note>
       </trans-unit>
       <trans-unit id="348325afced7f3da215310efbe21f1c1">
         <source>Last items in stock</source>
         <target>Last items in stock</target>
-        <note>Line: 949</note>
+        <note>Line: 973</note>
       </trans-unit>
       <trans-unit id="a3b6a4d0897451813950029a3066f219">
         <source>ean13</source>
         <target>ean13</target>
-        <note>Line: 965</note>
+        <note>Line: 989</note>
       </trans-unit>
       <trans-unit id="6496117322fd76fa12ac1b87d8a4db6c">
         <source>isbn</source>
         <target>isbn</target>
-        <note>Line: 967</note>
+        <note>Line: 991</note>
       </trans-unit>
       <trans-unit id="2f9e567efb6a38663162f65eaac2d73b">
         <source>upc</source>
         <target>upc</target>
-        <note>Line: 969</note>
+        <note>Line: 993</note>
       </trans-unit>
       <trans-unit id="019d1ca7d50cc54b995f60d456435e87">
         <source>Used</source>
         <target>Used</target>
-        <note>Line: 246</note>
+        <note>Line: 249</note>
       </trans-unit>
       <trans-unit id="6da03a74721a0554b7143254225cc08a">
         <source>Refurbished</source>
         <target>Refurbished</target>
-        <note>Line: 252</note>
+        <note>Line: 255</note>
       </trans-unit>
       <trans-unit id="03c2e7e41ffc181a4e84080b4710e81e">
         <source>New</source>
         <target>New</target>
-        <note>Line: 484</note>
+        <note>Line: 489</note>
       </trans-unit>
       <trans-unit id="294598238a4d88a9920c7e6fba9bb843">
         <source>MPN</source>
         <target>MPN</target>
-        <note>Line: 971</note>
+        <note>Line: 995</note>
       </trans-unit>
     </body>
   </file>
@@ -709,7 +709,7 @@ File: themes/StarterTheme/templates/customer/_partials/order-detail-return.tpl:3
       <trans-unit id="63d5049791d9d79d86e9a108b0a999ca">
         <source>Reference</source>
         <target>Reference</target>
-        <note>Line: 126</note>
+        <note>Line: 132</note>
       </trans-unit>
       <trans-unit id="deb10517653c255364175796ace3553f">
         <source>Product</source>
@@ -734,7 +734,7 @@ File: themes/StarterTheme/templates/customer/_partials/order-detail-return.tpl:3
       <trans-unit id="54c02ba7929b1fda4847991a45b58a48">
         <source>Product customization</source>
         <target>Product customization</target>
-        <note>Line: 131</note>
+        <note>Line: 140</note>
       </trans-unit>
     </body>
   </file>
