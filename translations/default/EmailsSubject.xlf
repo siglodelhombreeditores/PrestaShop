@@ -11,15 +11,15 @@
   </file>
   <file original="classes/PaymentModule.php" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
-      <trans-unit id="fca7e8d1c86db11246e429e40aa10c81">
-        <source>New voucher for your order %s</source>
-        <target>New voucher for your order %s</target>
-        <note>Line: 1223</note>
-      </trans-unit>
       <trans-unit id="fb077ecba55e5552916bde26d8b9e794">
         <source>Order confirmation</source>
         <target>Order confirmation</target>
         <note>Line: 704</note>
+      </trans-unit>
+      <trans-unit id="fca7e8d1c86db11246e429e40aa10c81">
+        <source>New voucher for your order %s</source>
+        <target>New voucher for your order %s</target>
+        <note>Line: 1223</note>
       </trans-unit>
     </body>
   </file>
@@ -88,15 +88,15 @@
   </file>
   <file original="controllers/front/PasswordController.php" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
-      <trans-unit id="61afad00abe3639b3ead655a1e8696d9">
-        <source>Password query confirmation</source>
-        <target>Password query confirmation</target>
-        <note>Line: 106</note>
-      </trans-unit>
       <trans-unit id="c5f4622e4a63b41e7c0ddc100583ee6b">
         <source>Your new password</source>
         <target>Your new password</target>
         <note>Line: 203</note>
+      </trans-unit>
+      <trans-unit id="61afad00abe3639b3ead655a1e8696d9">
+        <source>Password query confirmation</source>
+        <target>Password query confirmation</target>
+        <note>Line: 106</note>
       </trans-unit>
     </body>
   </file>

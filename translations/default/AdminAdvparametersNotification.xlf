@@ -1,34 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file original="admin-dev/backup.php" source-language="en-US" target-language="en" datatype="plaintext">
-    <body>
-      <trans-unit id="b42cd3af71fc00ef268910709255320a">
-        <source>You do not have permission to view this.</source>
-        <target>You do not have permission to view this.</target>
-        <note>Line: 51</note>
-      </trans-unit>
-      <trans-unit id="e38d3ed240ea149315399f76813ad836">
-        <source>There is no "/backup" directory.</source>
-        <target>There is no "/backup" directory.</target>
-        <note>Line: 61</note>
-      </trans-unit>
-      <trans-unit id="8a5a71bcb5b4e12673c79e3d8b1deb56">
-        <source>No file has been specified.</source>
-        <target>No file has been specified.</target>
-        <note>Line: 69</note>
-      </trans-unit>
-      <trans-unit id="db5aa3efeee3f75954f4a6de541f7fd2">
-        <source>Unable to open backup file(s).</source>
-        <target>Unable to open backup file(s).</target>
-        <note>Line: 93</note>
-      </trans-unit>
-      <trans-unit id="089426c3b86f7f52cc14c3ebf5ca5b8f">
-        <source>Unable to display backup file(s).</source>
-        <target>Unable to display backup file(s).</target>
-        <note>Line: 113</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="admin-dev/themes/default/template/controllers/access/helpers/form/form.tpl" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
       <trans-unit id="b04c5e39cb3460a062bba48d85567cdb">
@@ -38,36 +9,12 @@
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl" source-language="en-US" target-language="en" datatype="plaintext">
-    <body>
-      <trans-unit id="7ec8e6a8a53cd81e13594780931cfce5">
-        <source>Importing Supply Order Details will reset your history of ordered products, if there are any.</source>
-        <target>Importing Supply Order Details will reset your history of ordered products, if there are any.</target>
-        <note>Line: 70</note>
-      </trans-unit>
-      <trans-unit id="df6e9862566912e908ef785e860f9c71">
-        <source>Are you sure that you would like to delete this entity: </source>
-        <target>Are you sure that you would like to delete this entity: </target>
-        <note>Line: 493</note>
-      </trans-unit>
-      <trans-unit id="83a1698a445036a9a65686ac61879794">
-        <source>You do not have permission to delete this. When the MultiStore mode is enabled, only a SuperAdmin can delete all items before an import.</source>
-        <target>You do not have permission to delete this. When the MultiStore mode is enabled, only a SuperAdmin can delete all items before an import.</target>
-        <note>Line: 497</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
       <trans-unit id="d85366190ecd2aebf8363980ad9d6740">
         <source>Importing your data...</source>
         <target>Importing your data...</target>
         <note>Line: 76</note>
-      </trans-unit>
-      <trans-unit id="8a1d14318cfc965da76c0b9d0a53bb93">
-        <source>Aborting, please wait...</source>
-        <target>Aborting, please wait...</target>
-        <note>Line: 27</note>
       </trans-unit>
       <trans-unit id="e130ff31fe5f7a054a2db876a7acc94d">
         <source>Data imported!</source>
@@ -79,11 +26,6 @@
         <target>Look at your listings to make sure it's all there as you wished.</target>
         <note>Line: 35</note>
       </trans-unit>
-      <trans-unit id="4959a069997257077022c1b96b3b8001">
-        <source>Errors occurred:</source>
-        <target>Errors occurred:</target>
-        <note>Line: 39</note>
-      </trans-unit>
       <trans-unit id="0ccb924c3db6a900cff26de895f756b8">
         <source>Warning, the current import may require a PHP setting update, to allow more data to be transferred. If the current import stops before the end, you should increase your PHP "post_max_size" setting to [1]%size%[/1]MB at least, and try again.</source>
         <target>Warning, the current import may require a PHP setting update, to allow more data to be transferred. If the current import stops before the end, you should increase your PHP "post_max_size" setting to [1]%size%[/1]MB at least, and try again.</target>
@@ -94,6 +36,11 @@
         <target>Some errors were detected. Please check the details:</target>
         <note>Line: 49</note>
       </trans-unit>
+      <trans-unit id="4959a069997257077022c1b96b3b8001">
+        <source>Errors occurred:</source>
+        <target>Errors occurred:</target>
+        <note>Line: 39</note>
+      </trans-unit>
       <trans-unit id="3df311b82f78fa4059e9a78a26e77b06">
         <source>We made the following adjustments:</source>
         <target>We made the following adjustments:</target>
@@ -103,6 +50,21 @@
         <source>Validating data...</source>
         <target>Validating data...</target>
         <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="650e0b1fd707ad8ad3a94e2eb494de3d">
+        <source>Ignore warnings and continue?</source>
+        <target>Ignore warnings and continue?</target>
+        <note>Line: 100</note>
+      </trans-unit>
+      <trans-unit id="b8388ec68dcac2402d944fbb3382b0f1">
+        <source>Abort import</source>
+        <target>Abort import</target>
+        <note>Line: 104</note>
+      </trans-unit>
+      <trans-unit id="8a1d14318cfc965da76c0b9d0a53bb93">
+        <source>Aborting, please wait...</source>
+        <target>Aborting, please wait...</target>
+        <note>Line: 27</note>
       </trans-unit>
       <trans-unit id="95fdb0ead4798ff27cce78fac3fd3c11">
         <source>[1]%percentage%[/1]% validated</source>
@@ -123,16 +85,6 @@
         <source>[1]%size%[/1]% imported</source>
         <target>[1]%size%[/1]% imported</target>
         <note>Line: 84</note>
-      </trans-unit>
-      <trans-unit id="650e0b1fd707ad8ad3a94e2eb494de3d">
-        <source>Ignore warnings and continue?</source>
-        <target>Ignore warnings and continue?</target>
-        <note>Line: 100</note>
-      </trans-unit>
-      <trans-unit id="b8388ec68dcac2402d944fbb3382b0f1">
-        <source>Abort import</source>
-        <target>Abort import</target>
-        <note>Line: 104</note>
       </trans-unit>
     </body>
   </file>
@@ -183,30 +135,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminEmployeesController.php" source-language="en-US" target-language="en" datatype="plaintext">
-    <body>
-      <trans-unit id="8fd6c902e0a6186ebc62b4c3c65dc528">
-        <source>You cannot delete this account because it manages warehouses. Check your warehouses first.</source>
-        <target>You cannot delete this account because it manages warehouses. Check your warehouses first.</target>
-        <note>Line: 490</note>
-      </trans-unit>
-      <trans-unit id="1a33d52d73377516254da97f9fee027e">
-        <source>The confirmation password does not match.</source>
-        <target>The confirmation password does not match.</target>
-        <note>Line: 508</note>
-      </trans-unit>
-      <trans-unit id="c7cd7ecd5b19e01f74cad32af30c9ac4">
-        <source>You should have at least one employee in the administrator group.</source>
-        <target>You should have at least one employee in the administrator group.</target>
-        <note>Line: 563</note>
-      </trans-unit>
-      <trans-unit id="46cf0d0972e77638e099815140a0d302">
-        <source>The password must be at least %length% characters long.</source>
-        <target>The password must be at least %length% characters long.</target>
-        <note>Line: 594</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
       <trans-unit id="613260718349db00d0b7b9c1eb77c76c">
@@ -218,6 +146,11 @@
         <source>(click to open "Generators" page)</source>
         <target>(click to open "Generators" page)</target>
         <note>Line: 787</note>
+      </trans-unit>
+      <trans-unit id="c24928943071d3366164238b9413a211">
+        <source>Warehouse did not exist, cannot set on product %name%.</source>
+        <target>Warehouse did not exist, cannot set on product %name%.</target>
+        <note>Line: 2948</note>
       </trans-unit>
       <trans-unit id="5c8707f79dbdd3abb28a8aa09e34f02f">
         <source>No image was found for combination with id_product = %s and image position = %s.</source>
@@ -243,11 +176,6 @@
         <source>Advanced stock management is not enabled, warehouse is not set on product with id %id%.</source>
         <target>Advanced stock management is not enabled, warehouse is not set on product with id %id%.</target>
         <note>Line: 2928</note>
-      </trans-unit>
-      <trans-unit id="c24928943071d3366164238b9413a211">
-        <source>Warehouse did not exist, cannot set on product %name%.</source>
-        <target>Warehouse did not exist, cannot set on product %name%.</target>
-        <note>Line: 2948</note>
       </trans-unit>
       <trans-unit id="fd6d9d3ba7d4aaacc49f53c2e8c082c0">
         <source>Email address %1$s (ID: %2$s) cannot be validated.</source>
@@ -627,36 +555,6 @@
         <target>Product #%id%: the picture (%url%) cannot be saved.</target>
         <note>Line: 1144</note>
       </trans-unit>
-      <trans-unit id="c2758df7a8c70260e3b55e26c51b65fd">
-        <source>Advanced stock management has incorrect value. Not set for product %name% </source>
-        <target>Advanced stock management has incorrect value. Not set for product %name%</target>
-        <note>Line: 1232</note>
-      </trans-unit>
-      <trans-unit id="bb80841517f78647c5bee69710820c8d">
-        <source>Advanced stock management is not enabled, cannot enable on product %name% </source>
-        <target>Advanced stock management is not enabled, cannot enable on product %name%</target>
-        <note>Line: 1240</note>
-      </trans-unit>
-      <trans-unit id="651e202913d9229ff615d5afd6a6a168">
-        <source>Advanced stock management is not enabled, warehouse not set on product %name% </source>
-        <target>Advanced stock management is not enabled, warehouse not set on product %name%</target>
-        <note>Line: 1259</note>
-      </trans-unit>
-      <trans-unit id="470d8f3caa9e30c426f8d49779cc7a36">
-        <source>Warehouse did not exist, cannot set on product  %name% </source>
-        <target>Warehouse did not exist, cannot set on product  %name%</target>
-        <note>Line: 1281</note>
-      </trans-unit>
-      <trans-unit id="3d52f8b2b1a67aa8740b72b3752d54f3">
-        <source>Incorrect value for "Depends on stock" for product %name% </source>
-        <target>Incorrect value for "Depends on stock" for product %name%</target>
-        <note>Line: 1303</note>
-      </trans-unit>
-      <trans-unit id="65167d7a989d3a25c4f81a7140b07b8f">
-        <source>Advanced stock management is not enabled, cannot set "Depends on stock" for product %name% </source>
-        <target>Advanced stock management is not enabled, cannot set "Depends on stock" for product %name%</target>
-        <note>Line: 1311</note>
-      </trans-unit>
       <trans-unit id="1f45b8f0e0e3ab3a5c43c9b99641fad5">
         <source>Advanced stock management has incorrect value. Not set for product %name%</source>
         <target>Advanced stock management has incorrect value. Not set for product %name%</target>
@@ -956,11 +854,6 @@
   </file>
   <file original="src/Core/Import/File/FileUploader.php" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
-      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6">
-        <source>No file was uploaded.</source>
-        <target>No file was uploaded.</target>
-        <note>Line: 124</note>
-      </trans-unit>
       <trans-unit id="68e8d36b17584f88614fb3201925a7ac">
         <source>The uploaded file exceeds the upload_max_filesize directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess.</source>
         <target>The uploaded file exceeds the upload_max_filesize directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess.</target>
@@ -976,6 +869,11 @@
         <target>The uploaded file was only partially uploaded.</target>
         <note>Line: 120</note>
       </trans-unit>
+      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6">
+        <source>No file was uploaded.</source>
+        <target>No file was uploaded.</target>
+        <note>Line: 124</note>
+      </trans-unit>
       <trans-unit id="fc2e88db6e13898dab6ddf3b44c5d68a">
         <source>The extension of your file should be .csv.</source>
         <target>The extension of your file should be .csv.</target>
@@ -988,42 +886,13 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/Core/Webservice/ServerRequirementsChecker.php" source-language="en-US" target-language="en" datatype="plaintext">
-    <body>
-      <trans-unit id="3a1d42e50ada009f2ef187fbf6dc8a3f">
-        <source>To avoid operating problems, please use an Apache server.</source>
-        <target>To avoid operating problems, please use an Apache server.</target>
-        <note>Line: 156</note>
-      </trans-unit>
-      <trans-unit id="d6305f2f8c5c0f95a367e618a64bb458">
-        <source>Please activate the 'mod_auth_basic' Apache module to allow authentication of PrestaShop's webservice.</source>
-        <target>Please activate the 'mod_auth_basic' Apache module to allow authentication of PrestaShop's webservice.</target>
-        <note>Line: 161</note>
-      </trans-unit>
-      <trans-unit id="e11a22a5910f9f84a6630ee78e1a39f5">
-        <source>Please activate the 'mod_rewrite' Apache module to allow the PrestaShop webservice.</source>
-        <target>Please activate the 'mod_rewrite' Apache module to allow the PrestaShop webservice.</target>
-        <note>Line: 152</note>
-      </trans-unit>
-      <trans-unit id="2c19e4b707a422ddbbc4d1c32966661d">
-        <source>We could not check to see if basic authentication and rewrite extensions have been activated. Please manually check if they've been activated in order to use the PrestaShop webservice.</source>
-        <target>We could not check to see if basic authentication and rewrite extensions have been activated. Please manually check if they've been activated in order to use the PrestaShop webservice.</target>
-        <note>Line: 157</note>
-      </trans-unit>
-      <trans-unit id="ab60321a106f1e1ab65b76c1ca15dd7c">
-        <source>Please activate the 'SimpleXML' PHP extension to allow testing of PrestaShop's webservice.</source>
-        <target>Please activate the 'SimpleXML' PHP extension to allow testing of PrestaShop's webservice.</target>
-        <note>Line: 162</note>
-      </trans-unit>
-      <trans-unit id="0508bbb36fb6b5db31edf2f45cd687ea">
-        <source>It is preferable to use SSL (https:) for webservice calls, as it avoids the "man in the middle" type security issues.</source>
-        <target>It is preferable to use SSL (https:) for webservice calls, as it avoids the "man in the middle" type security issues.</target>
-        <note>Line: 167</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/BackupController.php" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
+      <trans-unit id="4e0ac45de6bd848503ffa98ff6247f2f">
+        <source>Error deleting</source>
+        <target>Error deleting</target>
+        <note>Line: 237</note>
+      </trans-unit>
       <trans-unit id="f36c9a20c2ce51f491c944e41fde5ace">
         <source>It appears the backup was successful, however you must download and carefully verify the backup file before proceeding.</source>
         <target>It appears the backup was successful, however you must download and carefully verify the backup file before proceeding.</target>
@@ -1039,11 +908,6 @@
         <target>The backup file does not exist</target>
         <note>Line: 208</note>
       </trans-unit>
-      <trans-unit id="4e0ac45de6bd848503ffa98ff6247f2f">
-        <source>Error deleting</source>
-        <target>Error deleting</target>
-        <note>Line: 237</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmployeeController.php" source-language="en-US" target-language="en" datatype="plaintext">
@@ -1053,30 +917,30 @@
         <target>You cannot edit the SuperAdmin profile.</target>
         <note>Line: 344</note>
       </trans-unit>
-      <trans-unit id="cd34716bc68eb08479ddf16f17b2580e">
-        <source>The provided profile is invalid</source>
-        <target>The provided profile is invalid</target>
-        <note>Line: 511</note>
+      <trans-unit id="2450228823b8e17792cf687b8543b59d">
+        <source>You cannot disable or delete the administrator account.</source>
+        <target>You cannot disable or delete the administrator account.</target>
+        <note>Line: 489</note>
       </trans-unit>
       <trans-unit id="f5d44b60e38b28d19549bb7a107654ca">
         <source>You cannot disable or delete your own account.</source>
         <target>You cannot disable or delete your own account.</target>
         <note>Line: 495</note>
       </trans-unit>
-      <trans-unit id="2450228823b8e17792cf687b8543b59d">
-        <source>You cannot disable or delete the administrator account.</source>
-        <target>You cannot disable or delete the administrator account.</target>
-        <note>Line: 489</note>
+      <trans-unit id="cfe45dd92c1b71a640ea19767578f38c">
+        <source>The employee must be associated with at least one shop.</source>
+        <target>The employee must be associated with at least one shop.</target>
+        <note>Line: 507</note>
+      </trans-unit>
+      <trans-unit id="cd34716bc68eb08479ddf16f17b2580e">
+        <source>The provided profile is invalid</source>
+        <target>The provided profile is invalid</target>
+        <note>Line: 511</note>
       </trans-unit>
       <trans-unit id="4220fb02fdc65e838a02a3b51c6f737f">
         <source>Your current password is invalid.</source>
         <target>Your current password is invalid.</target>
         <note>Line: 524</note>
-      </trans-unit>
-      <trans-unit id="cfe45dd92c1b71a640ea19767578f38c">
-        <source>The employee must be associated with at least one shop.</source>
-        <target>The employee must be associated with at least one shop.</target>
-        <note>Line: 507</note>
       </trans-unit>
     </body>
   </file>
@@ -1205,35 +1069,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/backup_info.html.twig" source-language="en-US" target-language="en" datatype="plaintext">
-    <body>
-      <trans-unit id="088e7482af32200b588d22e5f0af4f94">
-        <source>How to restore a database backup</source>
-        <target>How to restore a database backup</target>
-        <note>Line: 29</note>
-      </trans-unit>
-      <trans-unit id="bcb4db2b36ea3b1e20e5ee4aa9a68665">
-        <source>If you need to restore a database backup, we invite you to subscribe to a [1][2]technical support plan[/2][/1].</source>
-        <target>If you need to restore a database backup, we invite you to subscribe to a [1][2]technical support plan[/2][/1].</target>
-        <note>Line: 30</note>
-      </trans-unit>
-      <trans-unit id="0929b3759c8eef31c299400f513072dd">
-        <source>Our team will take care of restoring your database safely.</source>
-        <target>Our team will take care of restoring your database safely.</target>
-        <note>Line: 31</note>
-      </trans-unit>
-      <trans-unit id="c4b6a12f5f4cbbeb2353a718ee9a8a9a">
-        <source>Why can't I restore it by myself?</source>
-        <target>Why can't I restore it by myself?</target>
-        <note>Line: 33</note>
-      </trans-unit>
-      <trans-unit id="d4ef96663955ee203ce986ef40945199">
-        <source>Your shop is hosted by PrestaShop. Although you can create backup files here below, there are core settings you cannot access for security reasons, like the database management. Thus, only our team can proceed to a restoration.</source>
-        <target>Your shop is hosted by PrestaShop. Although you can create backup files here below, there are core settings you cannot access for security reasons, like the database management. Thus, only our team can proceed to a restoration.</target>
-        <note>Line: 34</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/backup_warning.html.twig" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
       <trans-unit id="54ee283a75b8a8a38f0b4996e4e69db5">
@@ -1309,6 +1144,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Blocks/import_panel.html.twig" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
+      <trans-unit id="96928d6d818f56de18860a85e4a06f43">
+        <source>Are you sure you want to delete this entity:</source>
+        <target>Are you sure you want to delete this entity:</target>
+        <note>Line: 30</note>
+      </trans-unit>
       <trans-unit id="418dde4b22e22a725e75b2819c0373b2">
         <source>Note that the Category import does not support having two categories with the same name.</source>
         <target>Note that the Category import does not support having two categories with the same name.</target>
@@ -1319,29 +1159,15 @@
         <target>Note that you can have several products with the same reference.</target>
         <note>Line: 61</note>
       </trans-unit>
-      <trans-unit id="6dc43a448d1a98e265b2632d5fa41ec6">
-        <source>Are you sure that you would like to delete this entity:</source>
-        <target>Are you sure that you would like to delete this entity:</target>
-        <note>Line: 29</note>
-      </trans-unit>
-      <trans-unit id="96928d6d818f56de18860a85e4a06f43">
-        <source>Are you sure you want to delete this entity:</source>
-        <target>Are you sure you want to delete this entity:</target>
-        <note>Line: 30</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Email/Blocks/smtp_configuration.html.twig" source-language="en-US" target-language="en" datatype="plaintext">
-    <body>
-      <trans-unit id="5b8df4265c79cd43831e740281850c84">
-        <source>SSL does not seem to be available on your server.</source>
-        <target>SSL does not seem to be available on your server.</target>
-        <note>Line: 75</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/FeatureFlag/index.html.twig" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
+      <trans-unit id="413e71d77a70c6ddfbbee6979b47b90b">
+        <source>New features are available. Feel free to try them out!</source>
+        <target>New features are available. Feel free to try them out!</target>
+        <note>Line: 45</note>
+      </trans-unit>
       <trans-unit id="fcfc1d5af32905a9ed28a76af2251ba9">
         <source>Testing a feature before its official release can be exciting. However, you must be aware of the potential risks of such experiments:</source>
         <target>Testing a feature before its official release can be exciting. However, you must be aware of the potential risks of such experiments:</target>
@@ -1366,11 +1192,6 @@
         <source>You are about to enable a feature that is not stable yet. This should only be done in a test environment or in full knowledge of the potential risks.</source>
         <target>You are about to enable a feature that is not stable yet. This should only be done in a test environment or in full knowledge of the potential risks.</target>
         <note>Line: 84</note>
-      </trans-unit>
-      <trans-unit id="413e71d77a70c6ddfbbee6979b47b90b">
-        <source>New features are available. Feel free to try them out!</source>
-        <target>New features are available. Feel free to try them out!</target>
-        <note>Line: 45</note>
       </trans-unit>
     </body>
   </file>

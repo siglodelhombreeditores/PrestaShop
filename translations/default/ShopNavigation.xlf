@@ -62,6 +62,11 @@
         <target>Login</target>
         <note>Line: 37</note>
       </trans-unit>
+      <trans-unit id="0f98b7f230f3c91292f0de4c99e263f2">
+        <source>Registration</source>
+        <target>Registration</target>
+        <note>Line: 38</note>
+      </trans-unit>
       <trans-unit id="a85eba4c6c699122b2bb1387ea4813ad">
         <source>Cart</source>
         <target>Cart</target>
@@ -232,6 +237,11 @@
         <target>login</target>
         <note>Line: 81</note>
       </trans-unit>
+      <trans-unit id="563873d38950b841aebf89c3be1b1a35">
+        <source>registration</source>
+        <target>registration</target>
+        <note>Line: 82</note>
+      </trans-unit>
       <trans-unit id="54013ba69c196820e56801f1ef5aad54">
         <source>cart</source>
         <target>cart</target>
@@ -291,16 +301,6 @@
         <source>order-confirmation</source>
         <target>order-confirmation</target>
         <note>Line: 94</note>
-      </trans-unit>
-      <trans-unit id="0f98b7f230f3c91292f0de4c99e263f2">
-        <source>Registration</source>
-        <target>Registration</target>
-        <note>Line: 38</note>
-      </trans-unit>
-      <trans-unit id="563873d38950b841aebf89c3be1b1a35">
-        <source>registration</source>
-        <target>registration</target>
-        <note>Line: 82</note>
       </trans-unit>
     </body>
   </file>

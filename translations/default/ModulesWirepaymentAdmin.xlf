@@ -7,10 +7,10 @@
         <target>Wire payment</target>
         <note>Line: 77</note>
       </trans-unit>
-      <trans-unit id="cedc96489132776ce19ebc2751f17454">
-        <source>Accept payments by bank transfer.</source>
-        <target>Accept payments by bank transfer.</target>
-        <note>Line: 76</note>
+      <trans-unit id="7d8eb5539dc2cc45a0ca92bb5ee15210">
+        <source>Accept wire payments by displaying your account details during the checkout.</source>
+        <target>Accept wire payments by displaying your account details during the checkout.</target>
+        <note>Line: 78</note>
       </trans-unit>
       <trans-unit id="cbe0a99684b145e77f3e14174ac212e3">
         <source>Are you sure about removing these details?</source>
@@ -91,16 +91,6 @@
         <source>Your country's legislation may require you to send the invitation to pay by email only. Disabling the option will hide the invitation on the confirmation page.</source>
         <target>Your country's legislation may require you to send the invitation to pay by email only. Disabling the option will hide the invitation on the confirmation page.</target>
         <note>Line: 322</note>
-      </trans-unit>
-      <trans-unit id="efe2bc77638ccc2f2fe662833597ef5c">
-        <source>Accept wire payments by displaying your account details during the checkout and make it easy for your customers to purchase on your store.</source>
-        <target>Accept wire payments by displaying your account details during the checkout and make it easy for your customers to purchase on your store.</target>
-        <note>Line: 70</note>
-      </trans-unit>
-      <trans-unit id="7d8eb5539dc2cc45a0ca92bb5ee15210">
-        <source>Accept wire payments by displaying your account details during the checkout.</source>
-        <target>Accept wire payments by displaying your account details during the checkout.</target>
-        <note>Line: 78</note>
       </trans-unit>
     </body>
   </file>

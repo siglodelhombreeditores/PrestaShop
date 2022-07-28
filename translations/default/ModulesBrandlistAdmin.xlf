@@ -7,11 +7,10 @@
         <target>Brand list</target>
         <note>Line: 49</note>
       </trans-unit>
-      <trans-unit id="052ff68a216c9550049fb08ad31e8c72">
-        <source>Displays a block listing product brands.</source>
-        <target>Displays a block listing product brands.</target>
-        <note>Context:
-File: modules/ps_brandlist/ps_brandlist.php:54</note>
+      <trans-unit id="655648b577174ddd311e3237a9a14573">
+        <source>Display your brands on your catalog and allow your visitors to filter their search by brand.</source>
+        <target>Display your brands on your catalog and allow your visitors to filter their search by brand.</target>
+        <note>Line: 54</note>
       </trans-unit>
       <trans-unit id="f8c922e47935b3b76a749334045d61cf">
         <source>There is an invalid number of elements.</source>
@@ -47,11 +46,6 @@ File: modules/ps_brandlist/ps_brandlist.php:54</note>
         <source>Only apply in plain-text mode</source>
         <target>Only apply in plain-text mode</target>
         <note>Line: 197</note>
-      </trans-unit>
-      <trans-unit id="655648b577174ddd311e3237a9a14573">
-        <source>Display your brands on your catalog and allow your visitors to filter their search by brand.</source>
-        <target>Display your brands on your catalog and allow your visitors to filter their search by brand.</target>
-        <note>Line: 54</note>
       </trans-unit>
     </body>
   </file>

@@ -7,11 +7,10 @@
         <target>Supplier list</target>
         <note>Line: 54</note>
       </trans-unit>
-      <trans-unit id="179fd08d8a3a5ec477fa655e6f57257e">
-        <source>Adds a block with a list of your product suppliers on your shop.</source>
-        <target>Adds a block with a list of your product suppliers on your shop.</target>
-        <note>Context:
-File: modules/ps_supplierlist/ps_supplierlist.php:54</note>
+      <trans-unit id="8a6b2ba351be03fc5cd039e39985733b">
+        <source>Display your suppliers on your catalog and allow visitors to filter their search by supplier.</source>
+        <target>Display your suppliers on your catalog and allow visitors to filter their search by supplier.</target>
+        <note>Line: 59</note>
       </trans-unit>
       <trans-unit id="85ab0c0d250e58397e95c96277a3f8e3">
         <source>Invalid number of elements.</source>
@@ -47,11 +46,6 @@ File: modules/ps_supplierlist/ps_supplierlist.php:54</note>
         <source>Only apply in plain-text mode</source>
         <target>Only apply in plain-text mode</target>
         <note>Line: 200</note>
-      </trans-unit>
-      <trans-unit id="8a6b2ba351be03fc5cd039e39985733b">
-        <source>Display your suppliers on your catalog and allow visitors to filter their search by supplier.</source>
-        <target>Display your suppliers on your catalog and allow visitors to filter their search by supplier.</target>
-        <note>Line: 59</note>
       </trans-unit>
     </body>
   </file>

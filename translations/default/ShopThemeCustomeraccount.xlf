@@ -18,68 +18,12 @@
       </trans-unit>
     </body>
   </file>
-  <file original="themes/StarterTheme/templates/checkout/_partials/cart-summary.tpl" source-language="en-US" target-language="en" datatype="plaintext">
-    <body>
-      <trans-unit id="5238bd0d26ee4c221badd6e6c6475412">
-        <source>Your order</source>
-        <target>Your order</target>
-        <note>Context:
-File: themes/StarterTheme/templates/checkout/_partials/cart-summary.tpl:32</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="themes/StarterTheme/templates/checkout/_partials/steps/personal-information.tpl" source-language="en-US" target-language="en" datatype="plaintext">
-    <body>
-      <trans-unit id="0fc5b0bad7e8ab38a2cdcadc05cb248f">
-        <source>Connected as %first_name% %last_name%.</source>
-        <target>Connected as %first_name% %last_name%.</target>
-        <note>Context:
-File: themes/StarterTheme/templates/checkout/_partials/steps/personal-information.tpl:6</note>
-      </trans-unit>
-      <trans-unit id="929c1ec3a80a6e8a557bad8985e63991">
-        <source>No account?</source>
-        <target>No account?</target>
-        <note>Context:
-File: themes/StarterTheme/templates/checkout/_partials/steps/personal-information.tpl:24</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="themes/StarterTheme/templates/customer/history.tpl" source-language="en-US" target-language="en" datatype="plaintext">
-    <body>
-      <trans-unit id="bcd1b68617759b1dfcff0403a6b5a8d1">
-        <source>PDF</source>
-        <target>PDF</target>
-        <note>Context:
-File: themes/StarterTheme/templates/customer/history.tpl:64</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="themes/StarterTheme/templates/customer/my-account.tpl" source-language="en-US" target-language="en" datatype="plaintext">
-    <body>
-      <trans-unit id="999fe77c512638fd1b2ff18646d24781">
-        <source>Welcome to your account. Here you can manage all of your personal information and orders.</source>
-        <target>Welcome to your account. Here you can manage all of your personal information and orders.</target>
-        <note>Context:
-File: themes/StarterTheme/templates/customer/my-account.tpl:34</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="themes/classic/modules/ps_customeraccountlinks/ps_customeraccountlinks.tpl" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
-      <trans-unit id="4b877ba8588b19f1b278510bf2b57ebb">
-        <source>Log me out</source>
-        <target>Log me out</target>
-        <note>Line: 62</note>
-      </trans-unit>
       <trans-unit id="f2fc7490cbdb0db5cd6f1a4e7edb0da1">
         <source>Your account</source>
         <target>Your account</target>
         <note>Line: 33</note>
-      </trans-unit>
-      <trans-unit id="d4151a9a3959bdd43690735737034f27">
-        <source>Log in to your customer account</source>
-        <target>Log in to your customer account</target>
-        <note>Line: 65</note>
       </trans-unit>
       <trans-unit id="a82868319826fb092b73968e661b5b38">
         <source>Vouchers</source>
@@ -91,6 +35,26 @@ File: themes/StarterTheme/templates/customer/my-account.tpl:34</note>
         <target>Credit slips</target>
         <note>Line: 53</note>
       </trans-unit>
+      <trans-unit id="4b877ba8588b19f1b278510bf2b57ebb">
+        <source>Log me out</source>
+        <target>Log me out</target>
+        <note>Line: 62</note>
+      </trans-unit>
+      <trans-unit id="d4151a9a3959bdd43690735737034f27">
+        <source>Log in to your customer account</source>
+        <target>Log in to your customer account</target>
+        <note>Line: 65</note>
+      </trans-unit>
+      <trans-unit id="e06d7593c1cd6dabef450be6c3da7091">
+        <source>Merchandise returns</source>
+        <target>Merchandise returns</target>
+        <note>Line: 59</note>
+      </trans-unit>
+      <trans-unit id="a82be0f551b8708bc08eb33cd9ded0cf">
+        <source>Information</source>
+        <target>Information</target>
+        <note>Line: 43</note>
+      </trans-unit>
       <trans-unit id="284b47b0bb63ae2df3b29f0e691d6fcf">
         <source>Addresses</source>
         <target>Addresses</target>
@@ -100,16 +64,6 @@ File: themes/StarterTheme/templates/customer/my-account.tpl:34</note>
         <source>Add first address</source>
         <target>Add first address</target>
         <note>Line: 47</note>
-      </trans-unit>
-      <trans-unit id="a82be0f551b8708bc08eb33cd9ded0cf">
-        <source>Information</source>
-        <target>Information</target>
-        <note>Line: 43</note>
-      </trans-unit>
-      <trans-unit id="e06d7593c1cd6dabef450be6c3da7091">
-        <source>Merchandise returns</source>
-        <target>Merchandise returns</target>
-        <note>Line: 59</note>
       </trans-unit>
       <trans-unit id="7442e29d7d53e549b78d93c46b8cdcfc">
         <source>Orders</source>
@@ -153,15 +107,15 @@ File: themes/StarterTheme/templates/customer/my-account.tpl:34</note>
   </file>
   <file original="themes/classic/templates/checkout/_partials/steps/personal-information.tpl" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
-      <trans-unit id="8e3ecabff428ab5465ab8feb928436e0">
-        <source>Not you? [1]Log out[/1]</source>
-        <target>Not you? [1]Log out[/1]</target>
-        <note>Line: 26</note>
-      </trans-unit>
       <trans-unit id="6280ed214163d6e214763ff970910cdc">
         <source>Connected as [1]%firstname% %lastname%[/1].</source>
         <target>Connected as [1]%firstname% %lastname%[/1].</target>
         <note>Line: 13</note>
+      </trans-unit>
+      <trans-unit id="8e3ecabff428ab5465ab8feb928436e0">
+        <source>Not you? [1]Log out[/1]</source>
+        <target>Not you? [1]Log out[/1]</target>
+        <note>Line: 26</note>
       </trans-unit>
     </body>
   </file>
@@ -204,6 +158,11 @@ File: themes/StarterTheme/templates/customer/my-account.tpl:34</note>
   </file>
   <file original="themes/classic/templates/customer/_partials/order-detail-return.tpl" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
+      <trans-unit id="fdfac28b5ad628f25649d9c2eb4fc62e">
+        <source>Returned</source>
+        <target>Returned</target>
+        <note>Line: 192</note>
+      </trans-unit>
       <trans-unit id="3956298bcfc047e15b0e0d218492ce09">
         <source>Merchandise return</source>
         <target>Merchandise return</target>
@@ -218,11 +177,6 @@ File: themes/StarterTheme/templates/customer/my-account.tpl:34</note>
         <source>Request a return</source>
         <target>Request a return</target>
         <note>Line: 234</note>
-      </trans-unit>
-      <trans-unit id="fdfac28b5ad628f25649d9c2eb4fc62e">
-        <source>Returned</source>
-        <target>Returned</target>
-        <note>Line: 192</note>
       </trans-unit>
     </body>
   </file>
@@ -317,11 +271,6 @@ File: themes/StarterTheme/templates/customer/my-account.tpl:34</note>
         <target>Guest Tracking</target>
         <note>Line: 28</note>
       </trans-unit>
-      <trans-unit id="109636f722b8fccc95d072b2760a6282">
-        <source>Transform your guest account into a customer account and enjoy:</source>
-        <target>Transform your guest account into a customer account and enjoy:</target>
-        <note>Line: 43</note>
-      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/customer/history.tpl" source-language="en-US" target-language="en" datatype="plaintext">
@@ -363,6 +312,11 @@ File: themes/StarterTheme/templates/customer/my-account.tpl:34</note>
   </file>
   <file original="themes/classic/templates/customer/order-detail.tpl" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
+      <trans-unit id="755bb0834a77079fd1330b555b69e6bf">
+        <source>You have given permission to receive your order in recycled packaging.</source>
+        <target>You have given permission to receive your order in recycled packaging.</target>
+        <note>Line: 71</note>
+      </trans-unit>
       <trans-unit id="f5d74ea75357b5e139854c14f8e24fe3">
         <source>Order details</source>
         <target>Order details</target>
@@ -377,11 +331,6 @@ File: themes/StarterTheme/templates/customer/my-account.tpl:34</note>
         <source>Download your invoice as a PDF file.</source>
         <target>Download your invoice as a PDF file.</target>
         <note>Line: 64</note>
-      </trans-unit>
-      <trans-unit id="755bb0834a77079fd1330b555b69e6bf">
-        <source>You have given permission to receive your order in recycled packaging.</source>
-        <target>You have given permission to receive your order in recycled packaging.</target>
-        <note>Line: 71</note>
       </trans-unit>
       <trans-unit id="e14bc5cef02df7369b604ea3885adb96">
         <source>You have requested gift wrapping for this order.</source>

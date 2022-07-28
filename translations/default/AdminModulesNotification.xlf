@@ -11,15 +11,15 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules/configure.tpl" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
-      <trans-unit id="c0d19e251d0ff55ecb860e7349f779a4">
-        <source>Confirm reset</source>
-        <target>Confirm reset</target>
-        <note>Line: 50</note>
-      </trans-unit>
       <trans-unit id="45e06e5610d29d675a875a6f7731b73d">
         <source>Would you like to delete the content related to this module ?</source>
         <target>Would you like to delete the content related to this module ?</target>
         <note>Line: 51</note>
+      </trans-unit>
+      <trans-unit id="c0d19e251d0ff55ecb860e7349f779a4">
+        <source>Confirm reset</source>
+        <target>Confirm reset</target>
+        <note>Line: 50</note>
       </trans-unit>
       <trans-unit id="d65c99010166606287266e4af4f0b934">
         <source>No - reset only the parameters</source>
@@ -73,16 +73,6 @@
         <source>Successfully signed in to PrestaShop Addons.</source>
         <target>Successfully signed in to PrestaShop Addons.</target>
         <note>Line: 523</note>
-      </trans-unit>
-      <trans-unit id="cf28eac3f0fdd7e3d2d705282948f2b9">
-        <source>Error found : %1$s in country_module_list.xml file.</source>
-        <target>Error found : %1$s in country_module_list.xml file.</target>
-        <note>Line: 2294</note>
-      </trans-unit>
-      <trans-unit id="ce7d2844bfe39db351171add1d7348cd">
-        <source>Error found : %1$s in must_have_module_list.xml file.</source>
-        <target>Error found : %1$s in must_have_module_list.xml file.</target>
-        <note>Line: 2309</note>
       </trans-unit>
     </body>
   </file>
@@ -198,11 +188,6 @@
         <target>The following module(s) could not be loaded</target>
         <note>Line: 1557</note>
       </trans-unit>
-      <trans-unit id="ed6daad0747953284ea086d8cc5652de">
-        <source>Trusted and Untrusted XML have not been generated properly</source>
-        <target>Trusted and Untrusted XML have not been generated properly</target>
-        <note>Line: 1886</note>
-      </trans-unit>
       <trans-unit id="eddeabd79f8ca673d888fa2ffe9cf69a">
         <source>No template found for module</source>
         <target>No template found for module</target>
@@ -275,6 +260,11 @@
   </file>
   <file original="controllers/admin/AdminModulesController.php" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
+      <trans-unit id="8095c31813f8e77d292bf6bec964169b">
+        <source>Unknown archive type.</source>
+        <target>Unknown archive type.</target>
+        <note>Line: 496</note>
+      </trans-unit>
       <trans-unit id="723aac54d8b88c84ca0c9328f3912bf9">
         <source>There was an error while extracting the module (file may be corrupted).</source>
         <target>There was an error while extracting the module (file may be corrupted).</target>
@@ -319,26 +309,6 @@
         <source>Sorry, the module cannot be deleted. Please check if you have the right permissions on this folder.</source>
         <target>Sorry, the module cannot be deleted. Please check if you have the right permissions on this folder.</target>
         <note>Line: 595</note>
-      </trans-unit>
-      <trans-unit id="8875d822d9402acb528eb9c55401a573">
-        <source>You need to be logged in to your PrestaShop Addons account in order to update the %s module. %s</source>
-        <target>You need to be logged in to your PrestaShop Addons account in order to update the %s module. %s</target>
-        <note>Line: 771</note>
-      </trans-unit>
-      <trans-unit id="af67db57c79006fd9464c65865f36a44">
-        <source>Module %s cannot be upgraded: Error while downloading the latest version.</source>
-        <target>Module %s cannot be upgraded: Error while downloading the latest version.</target>
-        <note>Line: 807</note>
-      </trans-unit>
-      <trans-unit id="e6148a0bace3c593e161009060a7da99">
-        <source>Module %s cannot be upgraded: Error while extracting the latest version.</source>
-        <target>Module %s cannot be upgraded: Error while extracting the latest version.</target>
-        <note>Line: 809</note>
-      </trans-unit>
-      <trans-unit id="408e2019e00a54bbaace8e6ea29a736b">
-        <source>You do not have the rights to update the %s module. Please make sure you are logged in to the PrestaShop Addons account that purchased the module.</source>
-        <target>You do not have the rights to update the %s module. Please make sure you are logged in to the PrestaShop Addons account that purchased the module.</target>
-        <note>Line: 815</note>
       </trans-unit>
       <trans-unit id="811c568a06f4f5f038609a98512e9416">
         <source>You do not have permission to access this module.</source>
@@ -390,11 +360,6 @@
         <target>The following module(s) could not be installed properly: %s.</target>
         <note>Line: 806</note>
       </trans-unit>
-      <trans-unit id="8095c31813f8e77d292bf6bec964169b">
-        <source>Unknown archive type.</source>
-        <target>Unknown archive type.</target>
-        <note>Line: 496</note>
-      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminModulesPositionsController.php" source-language="en-US" target-language="en" datatype="plaintext">
@@ -421,60 +386,17 @@
       </trans-unit>
     </body>
   </file>
-  <file original="modules/ps_faviconnotificationbo/ps_faviconnotificationbo.php" source-language="en-US" target-language="en" datatype="plaintext">
-    <body>
-      <trans-unit id="bb8956c67b82c7444a80c6b2433dd8b4">
-        <source>Are you sure you want to uninstall this module?</source>
-        <target>Are you sure you want to uninstall this module?</target>
-        <note>Line: 71
-Comment: Confirm uninstall</note>
-      </trans-unit>
-      <trans-unit id="faaa79afdd5385b4ff3db080a88b0dc8">
-        <source>There was an error during the uninstallation.</source>
-        <target>There was an error during the uninstallation.</target>
-        <note>Line: 101</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="modules/ps_mbo/views/templates/admin/module-toolbar.tpl" source-language="en-US" target-language="en" datatype="plaintext">
-    <body>
-      <trans-unit id="957c752dd2c9466beff247b9cae7f715">
-        <source>Synchronized with Addons marketplace</source>
-        <target>Synchronized with Addons marketplace</target>
-        <note>Line: 10</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/Adapter/Module/ModuleDataProvider.php" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
-      <trans-unit id="429cc2fb9f1cb16782b0af5ba748096d">
-        <source>Parse error detected in main class of module %module%!</source>
-        <target>Parse error detected in main class of module %module%!</target>
-        <note>Line: 213</note>
-      </trans-unit>
-      <trans-unit id="e03545a6c414502e72d232b4c30d9fdd">
-        <source>Error while loading file of module %module%. %error_message%</source>
-        <target>Error while loading file of module %module%. %error_message%</target>
-        <note>Line: 302</note>
-      </trans-unit>
       <trans-unit id="97aaa428796fc523aae22098428c8a6f">
         <source>Parse error detected in main class of module %module%: %parse_error%</source>
         <target>Parse error detected in main class of module %module%: %parse_error%</target>
         <note>Line: 277</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="src/Adapter/Module/ModuleZipManager.php" source-language="en-US" target-language="en" datatype="plaintext">
-    <body>
-      <trans-unit id="08859ef1a837ae429ff2e4decc952cbe">
-        <source>Unable to find uploaded module at the following path: %file%</source>
-        <target>Unable to find uploaded module at the following path: %file%</target>
-        <note>Line: 96</note>
-      </trans-unit>
-      <trans-unit id="848578a1a363f2c2443b3989154bf646">
-        <source>Cannot extract module in %path% to get its name. %error%</source>
-        <target>Cannot extract module in %path% to get its name. %error%</target>
-        <note>Line: 102</note>
+      <trans-unit id="e03545a6c414502e72d232b4c30d9fdd">
+        <source>Error while loading file of module %module%. %error_message%</source>
+        <target>Error while loading file of module %module%. %error_message%</target>
+        <note>Line: 302</note>
       </trans-unit>
     </body>
   </file>
@@ -496,69 +418,6 @@ Comment: Confirm uninstall</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/Core/Addon/Module/ModuleManager.php" source-language="en-US" target-language="en" datatype="plaintext">
-    <body>
-      <trans-unit id="b58f4b4f4f870b40e52c42c161df0d60">
-        <source>Error when disabling module %module%. %error_details%.</source>
-        <target>Error when disabling module %module%. %error_details%.</target>
-        <note>Line: 413</note>
-      </trans-unit>
-      <trans-unit id="fbaf1c9434442c780f3eddff4406603c">
-        <source>Error when enabling module %module%. %error_details%.</source>
-        <target>Error when enabling module %module%. %error_details%.</target>
-        <note>Line: 442</note>
-      </trans-unit>
-      <trans-unit id="976dc5c6fc2fe73b2c43c7776847e593">
-        <source>Error when disabling module %module% on mobile. %error_details%</source>
-        <target>Error when disabling module %module% on mobile. %error_details%</target>
-        <note>Line: 487</note>
-      </trans-unit>
-      <trans-unit id="416bc5074d9b9944a51797b081492442">
-        <source>Error when enabling module %module% on mobile. %error_details%</source>
-        <target>Error when enabling module %module% on mobile. %error_details%</target>
-        <note>Line: 531</note>
-      </trans-unit>
-      <trans-unit id="387aeee114093679248f936ba36ee416">
-        <source>Error when resetting module %module%. %error_details%</source>
-        <target>Error when resetting module %module%. %error_details%</target>
-        <note>Line: 565</note>
-      </trans-unit>
-      <trans-unit id="e3c5e565ab8a994cb42d0a1b8435416c">
-        <source>The module %name% could not be found on Addons.</source>
-        <target>The module %name% could not be found on Addons.</target>
-        <note>Line: 302</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Core/Addon/Module/ModuleRepository.php" source-language="en-US" target-language="en" datatype="plaintext">
-    <body>
-      <trans-unit id="a3214c22fd9d21c988d9bb06748d6d9f">
-        <source>Parse error on module %module%. %error_details%</source>
-        <target>Parse error on module %module%. %error_details%</target>
-        <note>Line: 390</note>
-      </trans-unit>
-      <trans-unit id="bcc1e7daae2727b6d7a32567086cd84f">
-        <source>Unexpected exception on module %module%. %error_details%</source>
-        <target>Unexpected exception on module %module%. %error_details%</target>
-        <note>Line: 401</note>
-      </trans-unit>
-      <trans-unit id="9fcc3446d55e632b5f3ca13fc810c83b">
-        <source>Loading data from Addons failed. %error_details%</source>
-        <target>Loading data from Addons failed. %error_details%</target>
-        <note>Line: 449</note>
-      </trans-unit>
-      <trans-unit id="0554e4a4ddb313c3962088dc32647e90">
-        <source>Parse error detected in module %module%. %error_details%.</source>
-        <target>Parse error detected in module %module%. %error_details%.</target>
-        <note>Line: 574</note>
-      </trans-unit>
-      <trans-unit id="40e7db035e09d8f198b96a7d5d9e821f">
-        <source>Exception detected while loading module %module%. %error_details%.</source>
-        <target>Exception detected while loading module %module%. %error_details%.</target>
-        <note>Line: 584</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/Core/Module/ModuleManager.php" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
       <trans-unit id="f2715f72988009e4f50e94d88b3df89f">
@@ -576,40 +435,40 @@ Comment: Confirm uninstall</note>
         <target>You are not allowed to upgrade the module %module%.</target>
         <note>Line: 165</note>
       </trans-unit>
-      <trans-unit id="87c10be2be869072e9d1e7cbca858445">
-        <source>You are not allowed to disable the module %module%.</source>
-        <target>You are not allowed to disable the module %module%.</target>
-        <note>Line: 208</note>
-      </trans-unit>
       <trans-unit id="42874189778a946c2a51911076474ad4">
         <source>You are not allowed to enable the module %module%.</source>
         <target>You are not allowed to enable the module %module%.</target>
         <note>Line: 187</note>
       </trans-unit>
-      <trans-unit id="9fa7ea0487a785b31f48977415f3324a">
-        <source>You are not allowed to disable the module %module% on mobile.</source>
-        <target>You are not allowed to disable the module %module% on mobile.</target>
-        <note>Line: 250</note>
+      <trans-unit id="87c10be2be869072e9d1e7cbca858445">
+        <source>You are not allowed to disable the module %module%.</source>
+        <target>You are not allowed to disable the module %module%.</target>
+        <note>Line: 208</note>
       </trans-unit>
       <trans-unit id="c74f0e8fe4da4e6dcb5a051f0eef1ec3">
         <source>You are not allowed to enable the module %module% on mobile.</source>
         <target>You are not allowed to enable the module %module% on mobile.</target>
         <note>Line: 229</note>
       </trans-unit>
+      <trans-unit id="9fa7ea0487a785b31f48977415f3324a">
+        <source>You are not allowed to disable the module %module% on mobile.</source>
+        <target>You are not allowed to disable the module %module% on mobile.</target>
+        <note>Line: 250</note>
+      </trans-unit>
       <trans-unit id="e65dccd7380f1af807453a7afdf3f427">
         <source>You are not allowed to reset the module %module%.</source>
         <target>You are not allowed to reset the module %module%.</target>
         <note>Line: 274</note>
       </trans-unit>
-      <trans-unit id="c111e1387c9a6c5c98635ecdbbcb26af">
-        <source>The module is invalid and cannot be loaded.</source>
-        <target>The module is invalid and cannot be loaded.</target>
-        <note>Line: 321</note>
-      </trans-unit>
       <trans-unit id="c913de38eb118ce08ddae76f27063126">
         <source>Unfortunately, the module did not return additional details.</source>
         <target>Unfortunately, the module did not return additional details.</target>
         <note>Line: 314</note>
+      </trans-unit>
+      <trans-unit id="c111e1387c9a6c5c98635ecdbbcb26af">
+        <source>The module is invalid and cannot be loaded.</source>
+        <target>The module is invalid and cannot be loaded.</target>
+        <note>Line: 321</note>
       </trans-unit>
       <trans-unit id="83a812de8784135990c57d25d0f9b34b">
         <source>The module %module% must be installed first</source>
@@ -663,6 +522,16 @@ Comment: Confirm uninstall</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/Design/PositionsController.php" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
+      <trans-unit id="980b6caee06822f8c5df45eb7db277be">
+        <source>The module transplanted successfully to the hook.</source>
+        <target>The module transplanted successfully to the hook.</target>
+        <note>Line: 236</note>
+      </trans-unit>
+      <trans-unit id="80e868e8d753c3ec4066aab283e66cbc">
+        <source>The module was successfully removed from the hook.</source>
+        <target>The module was successfully removed from the hook.</target>
+        <note>Line: 237</note>
+      </trans-unit>
       <trans-unit id="1c1824ce21df05df8689641c516c9d75">
         <source>This module cannot be loaded.</source>
         <target>This module cannot be loaded.</target>
@@ -678,40 +547,10 @@ Comment: Confirm uninstall</note>
         <target>An error occurred while deleting the module from its hook.</target>
         <note>Line: 200</note>
       </trans-unit>
-      <trans-unit id="80e868e8d753c3ec4066aab283e66cbc">
-        <source>The module was successfully removed from the hook.</source>
-        <target>The module was successfully removed from the hook.</target>
-        <note>Line: 237</note>
-      </trans-unit>
-      <trans-unit id="980b6caee06822f8c5df45eb7db277be">
-        <source>The module transplanted successfully to the hook.</source>
-        <target>The module transplanted successfully to the hook.</target>
-        <note>Line: 236</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/ModuleController.php" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
-      <trans-unit id="385b04e1b2442530341b51c2d3b216a3">
-        <source>Cannot get catalog data, please try again later. Reason: %error_details%</source>
-        <target>Cannot get catalog data, please try again later. Reason: %error_details%</target>
-        <note>Line: 338</note>
-      </trans-unit>
-      <trans-unit id="71d827dd0d049981403f27fb7af0991c">
-        <source>%module% did not return a valid response on %action% action.</source>
-        <target>%module% did not return a valid response on %action% action.</target>
-        <note>Line: 436</note>
-      </trans-unit>
-      <trans-unit id="8e7e1a7e5fa9edcd7139f569d07fc5b9">
-        <source>Confirmation needed by module %module% on %action% (%subject%).</source>
-        <target>Confirmation needed by module %module% on %action% (%subject%).</target>
-        <note>Line: 624</note>
-      </trans-unit>
-      <trans-unit id="bf0edb2da5a51620141bff55d3060a63">
-        <source>Exception thrown by module %module% on %action%. %error_details%</source>
-        <target>Exception thrown by module %module% on %action%. %error_details%</target>
-        <note>Line: 470</note>
-      </trans-unit>
       <trans-unit id="89d371deca1b2b50a933fabc8005ccfb">
         <source>%module% did not return a valid response on installation.</source>
         <target>%module% did not return a valid response on installation.</target>
@@ -734,30 +573,12 @@ Comment: Confirm uninstall</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Improve/Modules/ModuleAbstractController.php" source-language="en-US" target-language="en" datatype="plaintext">
-    <body>
-      <trans-unit id="fc7da9518fbe20ebcaccbf5f8fd0e7df">
-        <source>Synchronized with Addons marketplace!</source>
-        <target>Synchronized with Addons marketplace!</target>
-        <note>Line: 112</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/card_notification_update.html.twig" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
       <trans-unit id="fca2f02b01daced572256506d1054f4a">
         <source>No changelog provided</source>
         <target>No changelog provided</target>
         <note>Line: 47</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_addons_connect.html.twig" source-language="en-US" target-language="en" datatype="plaintext">
-    <body>
-      <trans-unit id="df776a9024ce6c10ec1d1d763cee0301">
-        <source>You are about to log out your Addons account. You might miss important updates of Addons you've bought.</source>
-        <target>You are about to log out your Addons account. You might miss important updates of Addons you've bought.</target>
-        <note>Line: 98</note>
       </trans-unit>
     </body>
   </file>
